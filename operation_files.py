@@ -1,0 +1,13 @@
+# files = open("C:\\Users\\dell\\Documents\\hamza python codingal\\python_files_operation.txt","r")
+# # print(files.write("Hello Python"))
+# print(files.read())
+
+files = open("C:\\Users\\dell\\Documents\\hamza python codingal\\python_files_operation.txt","a")
+(files.write("\nHello World"))
+files.close()
+file = open("C:\\Users\\dell\\Documents\\hamza python codingal\\python_files_operation.txt","r")
+q = file.read()
+print(q)
+w = q.split()
+e = "  ".join(w)
+print(e)
